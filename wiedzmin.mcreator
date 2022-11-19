@@ -1,0 +1,278 @@
+{
+  "mod_elements": [
+    {
+      "name": "Jaskolka",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaskolka"
+    },
+    {
+      "name": "Zatrucieeliksirami",
+      "type": "potioneffect",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zatrucieeliksirami"
+    },
+    {
+      "name": "Potionuse",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionuse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZatrucieeliksiramiEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zatrucieeliksirami_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jaskolczeziele",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaskolczeziele"
+    },
+    {
+      "name": "Mozgutopca",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mozgutopca"
+    },
+    {
+      "name": "KrasnoludzkispirytusPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krasnoludzkispirytus_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Krasnoludzkispirytus",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krasnoludzkispirytus"
+    },
+    {
+      "name": "Jaskolkacraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jaskolkacraft"
+    },
+    {
+      "name": "Beczkakrasnoludzkiegopiwa",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beczkakrasnoludzkiegopiwa"
+    },
+    {
+      "name": "Piwo",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piwo"
+    },
+    {
+      "name": "BeczkakrasnoludzkiegopiwaUpdateTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beczkakrasnoludzkiegopiwa_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grom",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grom"
+    },
+    {
+      "name": "Grompotionuse",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grompotionuse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "potiondrink",
+      "files": [
+        "witcher_3_potion_drink"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "drinknormal",
+      "files": [
+        "witcher_3_drink_something"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.potiondrink": "",
+      "effect.zatrucieeliksirami": "zatrucie_eliksirami",
+      "item.wiedzmin.mozgutopca": "Mózg utopca",
+      "item.wiedzmin.jaskolka": "Jaskółka",
+      "subtitles.drinknormal": "",
+      "item.wiedzmin.jaskolczeziele": "Jaskółcze ziele",
+      "item.wiedzmin.grom": "Grom",
+      "block.wiedzmin.beczkakrasnoludzkiegopiwa": "Beczka alkoholu",
+      "item.wiedzmin.krasnoludzkispirytus": "Krasnoludzki spirytus"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wiedzmin",
+    "modName": "Wiedzmin",
+    "version": "1.0.0",
+    "author": "Mati, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.wiedzmin",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

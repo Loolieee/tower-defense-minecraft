@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wiedzmin:blocks/topbarrel",
+    "up": "wiedzmin:blocks/topbarrel",
+    "north": "wiedzmin:blocks/leftrightbarrel",
+    "east": "wiedzmin:blocks/leftrightbarrel",
+    "south": "wiedzmin:blocks/leftrightbarrel",
+    "west": "wiedzmin:blocks/leftrightbarrel",
+    "particle": "wiedzmin:blocks/topbarrel"
+  }
+}

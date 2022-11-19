@@ -1,0 +1,20 @@
+{
+  "potiondrink": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "wiedzmin:witcher_3_potion_drink",
+        "stream": false
+      }
+    ]
+  },
+  "drinknormal": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "wiedzmin:witcher_3_drink_something",
+        "stream": false
+      }
+    ]
+  }
+}

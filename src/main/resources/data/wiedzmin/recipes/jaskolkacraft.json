@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "wiedzmin:jaskolczeziele"
+    },
+    "1": {
+      "item": "wiedzmin:jaskolczeziele"
+    },
+    "2": {
+      "item": "wiedzmin:jaskolczeziele"
+    },
+    "3": {
+      "item": "wiedzmin:mozgutopca"
+    },
+    "4": {
+      "item": "wiedzmin:krasnoludzkispirytus"
+    },
+    "5": {
+      "item": "wiedzmin:mozgutopca"
+    },
+    "7": {
+      "item": "wiedzmin:mozgutopca"
+    }
+  },
+  "result": {
+    "item": "wiedzmin:jaskolka",
+    "count": 1
+  }
+}

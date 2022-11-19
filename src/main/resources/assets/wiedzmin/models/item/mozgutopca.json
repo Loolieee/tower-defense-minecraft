@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wiedzmin:items/grid_zombie_brain_thaumcraft_4"
+  }
+}
